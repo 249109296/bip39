@@ -1,4 +1,9 @@
 # BIP39
+修改内容
+Modify the content
+
+1.在原来的基础上增加了对中文助记词的支持.在助记词转完二进制的时候,把UTF16编码替换为UTF8.
+1.Added support for Chinese mnemonics on the original basis. When the mnemonic is converted to binary, replace the UTF16 encoding with UTF8.
 
 Dart implementation of [Bitcoin BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Mnemonic code for generating deterministic keys
 
